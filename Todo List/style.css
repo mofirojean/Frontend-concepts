@@ -26,10 +26,9 @@ body{
     width: 40rem;
     padding: 20px 10px;
     background: #fff;
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: 0 0 3px;
     margin-bottom: 20px;
-
     display: flex;
 }
 
@@ -37,7 +36,7 @@ input {
     flex: 5;
     margin-right: 10px;
     border-radius: 10px;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     padding: 5px;
     border: 1px solid #000;
 }
