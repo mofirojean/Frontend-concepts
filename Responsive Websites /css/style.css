@@ -67,4 +67,20 @@ section {
     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
 }
 
+/* image */
+img {
+    width: 100%;
+}
 
+/* intro section */
+.section-intro {
+    margin-bottom: 40px;
+}
+
+.section-intro .divider{
+    height: 4px;
+    width: 70px;
+    background: linear-gradient(to left, #00e0fe, #1107fe);
+    margin: 16px auto;
+    border-radius: 10px;
+}
