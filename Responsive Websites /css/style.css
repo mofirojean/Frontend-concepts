@@ -67,6 +67,12 @@ section {
     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
 }
 
+.navbar-nav .nav-link.active, .navbar-nav .show > .nav-link{
+   background: -webkit-linear-gradient(#00e0fe, #1107fe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* image */
 img {
     width: 100%;
@@ -83,4 +89,30 @@ img {
     background: linear-gradient(to left, #00e0fe, #1107fe);
     margin: 16px auto;
     border-radius: 10px;
+}
+
+/* service page */
+.services  .service-img{
+    position: relative;
+}
+
+.services  .service-img .icon{
+    width: 90px;
+    height: 90px;
+    background: linear-gradient(to left, #00e0fe, #1107fe);
+    color: #fff;
+    border-radius: 100px;
+    /* to center our item using flex-box */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -45px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.services  .service-img .icon i {
+    font-size: 34px;
+    font-weight: 400;
 }

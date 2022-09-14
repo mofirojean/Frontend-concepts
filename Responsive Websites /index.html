@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/line-icons.css">
   </head>
-  <body>
+  <body data-bs-spy="scroll" data-bs-target=".navbar">
 
     <!-- Navbar -->
     <nav class="navbar fixed-top navbar-expand-lg bg-white">
@@ -25,25 +25,25 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#">HOME</a>
+                <a class="nav-link" href="#home">HOME</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">SERVICES</a>
+                <a class="nav-link" href="#services">SERVICES</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">ABOUT</a>
+                <a class="nav-link" href="#about">ABOUT</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">FEATURES</a>
+                <a class="nav-link" href="#features">FEATURES</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">REVIEWS</a>
+                <a class="nav-link" href="#reviews">REVIEWS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">BLOGS</a>
+                <a class="nav-link" href="#blogs">BLOGS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">CONTACT</a>
+                <a class="nav-link" href="#contact">CONTACT</a>
               </li>
             </ul>
           </div>
@@ -67,7 +67,7 @@
     </section>
 
     <!-- services -->
-    <section id="service">
+    <section id="services" class="text-center">
         <div class="container">
             <div class="row">
                 <div class="col-12 section-intro text-center">
@@ -84,7 +84,30 @@
                     <div class="service">
                         <div class="service-img">
                             <img src="img/image_1.jpg" alt="service image 1">
+                            <div class="icon"><i class="icon-laptop"></i></div>
                         </div>
+                        <h5 class="mt-5 pt-3">Web Developement</h5>
+                        <p>There are many variation of passages of lorem ipsum available, but the majurity have suffered alternation in some form.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service">
+                        <div class="service-img">
+                            <img src="img/image_2.jpg" alt="service image 1">
+                            <div class="icon"><i class="icon-streetsign"></i></div>
+                        </div>
+                        <h5 class="mt-5 pt-3">UI/UX Design</h5>
+                        <p>There are many variation of passages of lorem ipsum available, but the majurity have suffered alternation in some form.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service">
+                        <div class="service-img">
+                            <img src="img/image_3.jpg" alt="service image 1">
+                            <div class="icon"><i class="icon-mobile"></i></div>
+                        </div>
+                        <h5 class="mt-5 pt-3">App Developement</h5>
+                        <p>There are many variation of passages of lorem ipsum available, but the majurity have suffered alternation in some form.</p>
                     </div>
                 </div>
             </div>
