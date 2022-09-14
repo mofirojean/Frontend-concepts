@@ -46,6 +46,7 @@ section {
 }
 
 /* button */
+/* ################################################ */
 .btn{
     padding: 14px 22px;
     transition: all 0.3s ease;
@@ -72,6 +73,7 @@ section {
     align-items: center;
     border-radius: 100px;
 }
+/* ############################################### */
 
 .navbar {
     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
@@ -102,6 +104,7 @@ img {
 }
 
 /* service page */
+/* ############################################## */
 .service  .service-img{
     position: relative;
 }
@@ -126,3 +129,12 @@ img {
     font-size: 34px;
     font-weight: 400;
 }
+/* ############################################## */
+
+.feature i{
+    background: -webkit-linear-gradient(#00e0fe, #1107fe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 54px;
+}
+
