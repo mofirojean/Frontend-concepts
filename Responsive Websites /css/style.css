@@ -59,7 +59,7 @@ section {
 .btn-main {
     background: linear-gradient(to left, #00e0fe, #1107fe);
     border: none;
-    border-radius: 100px;
+    border-radius: 10px;
     font-weight: 600;
     color: #fff;
 }
