@@ -8,7 +8,7 @@
 }
 
 body { 
-    background: #fff;
+    background: #FB6D6c;
     min-height: 100vh;
 }
 
@@ -83,10 +83,9 @@ nav #icon {
         height: 60vh;
         background: #FFFFFF;
         top: 4rem;
-        left: -100%;
+        left: -102%;
         text-align: center;
         transition: all .5s ease-in-out;
-        box-shadow: 0 0 11px #666F80;
     }
 
     .nav-links li {
